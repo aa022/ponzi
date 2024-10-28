@@ -62,7 +62,9 @@ table {
 }
 
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(6, 61, 25, 0.616);
+ 
+
   overflow: ;
 }
 
@@ -83,9 +85,12 @@ body{
 }
 #maincontent{
   background-image: url("/microbesback_ponzi.png");
-  padding: 1rem ;
+  padding: 0rem ;
   padding-top: 3rem;
 }
+
+
+
 #ponzi{
   text-align: center;
   font-size: 4rem; 
@@ -96,6 +101,7 @@ body{
   padding: 1rem;
   text-align: center;
   font-size: smaller;
+  color: rgb(36, 0, 8);
 }
 
 #ponziimg1{
@@ -106,13 +112,17 @@ body{
 }
 #ponzicontainer{
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: -1rem;
 }
 hr{
   width: 0rem;
 }
 p{
-  padding: 1rem 0rem;
+  padding: 1rem 4rem;
+}
+ul{
+  padding: 0rem 5rem;
+  
 }
 
 
@@ -134,7 +144,7 @@ p{
 footer{
   color: white;
   background: black;
-  padding: 1rem;
+  padding: 2rem 0rem;
   padding-bottom: 4rem;
 }
 footer ::selection {
@@ -323,7 +333,19 @@ footer p a{
   background-color: black;
 }
 
+p{
+  padding: 1rem 0rem;
+}
+ul{
+  padding: 0rem 1rem;
+}
 
+footer{
+  color: white;
+  background: black;
+  padding: 2rem 2rem;
+  padding-bottom: 4rem;
+}
 
 
 }
