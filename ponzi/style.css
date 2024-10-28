@@ -49,6 +49,18 @@ table {
   color: #ffffff;            /* Change text color within selection */
 }
 
+#model-viewer{
+  position: fixed;
+  top: 10%;
+  right: 0;
+  height: 80%;
+  width: 44%;
+}
+
+#model-viewer2{
+  display: none;
+}
+
 body{
   background-color: rgb(255, 255, 255);
   overflow: ;
@@ -86,6 +98,8 @@ body{
   font-size: smaller;
 }
 
+#ponziimg1{
+  border: 2px black solid;}
 #ponziimg{
   
   border: 2px black solid;
@@ -195,6 +209,19 @@ footer p a{
 
 @media (max-aspect-ratio: 1/1) {
 
+  #model-viewer{
+    display: none;
+  }
+  #model-viewer2{
+   display: block;
+   width: 100%;
+   height: 77vw;
+   z-index: 0;
+  }
+  #ponziimg1{
+    display: none;
+  }
+
   #viewport{
     background-color: red;
     height: 77vh;
@@ -213,6 +240,7 @@ footer p a{
   }
 
   nav{
+    z-index: 9999;
     background-color: black;
     position: fixed;
     color: white;
